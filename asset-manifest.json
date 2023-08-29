@@ -1,16 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.073c9b0a.css",
-    "main.js": "/static/js/main.515ecb17.js",
+    "main.css": "/static/css/main.2508fb58.css",
+    "main.js": "/static/js/main.ba2367de.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
-    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/mongodb.svg": "/static/media/mongodb.ef003e2ffd114fa3fc8ee67ef0207e60.svg",
+    "static/media/react.svg": "/static/media/react.7aef399d92e9cada2369a62a602a38ef.svg",
+    "static/media/typescript.svg": "/static/media/typescript.14326f7515b188357053c59ffc8f96ea.svg",
+    "static/media/cpp.svg": "/static/media/cpp.4c24a37f867206f41deaf277d5c6d695.svg",
+    "static/media/swift.svg": "/static/media/swift.ff0e725fa8bfbe8a3f037136ce0246fa.svg",
+    "static/media/tensorflow.svg": "/static/media/tensorflow.ff0e725fa8bfbe8a3f037136ce0246fa.svg",
+    "static/media/python.svg": "/static/media/python.555ad5be609cf1f15bc7927ad61962b8.svg",
+    "static/media/jupyter.svg": "/static/media/jupyter.d4de255bfca5b810ad9cf70e14edb9e4.svg",
+    "static/media/pytorch.svg": "/static/media/pytorch.c862f4034bc05fdaa4773957c00530b3.svg",
     "index.html": "/index.html",
-    "main.073c9b0a.css.map": "/static/css/main.073c9b0a.css.map",
-    "main.515ecb17.js.map": "/static/js/main.515ecb17.js.map",
+    "main.2508fb58.css.map": "/static/css/main.2508fb58.css.map",
+    "main.ba2367de.js.map": "/static/js/main.ba2367de.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.515ecb17.js"
+    "static/css/main.2508fb58.css",
+    "static/js/main.ba2367de.js"
   ]
 }
