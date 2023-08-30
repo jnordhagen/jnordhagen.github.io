@@ -17,7 +17,7 @@ const SkillsCard = () => {
   const logos: string[] = [PythonLogo, CppLogo, TypescriptLogo, SwiftLogo, ReactLogo, MongoLogo, JupyterLogo, PytorchLogo, TensorflowLogo];
 
   return (
-    <Card sx={{padding: 5, borderRadius: 10}}>
+    <Card sx={{padding: 5, borderRadius: 5}}>
       <Grid container columnSpacing={5}>
         {logos.map((logo) => (
           <Grid item key={logo}>

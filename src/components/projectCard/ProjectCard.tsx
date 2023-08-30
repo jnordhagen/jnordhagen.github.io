@@ -7,7 +7,7 @@ const ProjectCard = ({ projectTitle, projectDesc, projectUrl }) => {
       sx={{
         height: "80vh",
         width: "50vw",
-        borderRadius: 10
+        borderRadius: 5
       }}
     >
       <Box
