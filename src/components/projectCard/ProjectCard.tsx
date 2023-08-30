@@ -8,8 +8,9 @@ const ProjectCard = ({ projectTitle, projectDesc, projectUrl }) => {
   return (
     <Card
       sx={{
-        height: "100%",
-        width: "50%",
+        height: "80vh",
+        width: "50vw",
+        borderRadius: 10
       }}
     >
       <Box

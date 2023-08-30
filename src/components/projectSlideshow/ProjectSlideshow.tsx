@@ -1,10 +1,11 @@
 import React from "react";
-import { IconButton, Stack, Typography } from "@mui/material";
+import { IconButton, Box, Stack } from "@mui/material";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 import ArrowBackIosIcon from "@mui/icons-material/ArrowBackIos"
 import Carousel from 'react-material-ui-carousel'
 
 import ProjectCard from "../projectCard/ProjectCard";
+import theme from "../../theme"
 
 interface Project {
   title: string;
@@ -45,17 +46,35 @@ const ProjectSlideshow = () => {
   ];
 
   return (
-    <Carousel>
-      {
-        projects.map( (project: Project, i: number) => 
-          <ProjectCard 
-            projectTitle={project.title}
-            projectDesc={project.description}
-            projectUrl={project.link}
-          />
-        )
-      }
-    </Carousel>
+    <Box paddingBottom={15}>
+      <Carousel 
+        sx={{height: "80vh", width: "60vw", overflowY: 'visible', overflowX: 'clip'}} 
+        NextIcon={<ArrowForwardIosIcon/>} 
+        PrevIcon={<ArrowBackIosIcon/>}
+        swipe={false}
+        navButtonsAlwaysVisible={true}
+        animation={"slide"}
+        duration={700}
+        fullHeightHover={false}
+        navButtonsProps={{ 
+          style: {
+            backgroundColor: theme.palette.background.default,
+          }
+        }} 
+      >
+        {
+          projects.map( (project: Project, i: number) => 
+            <Stack key={i} direction="row" sx={{height: "100%", width: "100%", justifyContent: "center"}}>
+              <ProjectCard 
+                projectTitle={project.title}
+                projectDesc={project.description}
+                projectUrl={project.link}
+              />
+            </Stack>        
+          )
+        }
+      </Carousel>
+    </Box>
   )
 };
 
