@@ -1,15 +1,13 @@
 import * as React from "react";
-import Box from "@mui/material/Box";
-import Card from "@mui/material/Card";
-import Link from "@mui/material/Link";
-import Typography from "@mui/material/Typography";
+import { Box, Card, Link, Typography } from "@mui/material";
 
 const ProjectCard = ({ projectTitle, projectDesc, projectUrl }) => {
   return (
     <Card
       sx={{
-        height: "100%",
-        width: "50%",
+        height: "80vh",
+        width: "50vw",
+        borderRadius: 5
       }}
     >
       <Box
