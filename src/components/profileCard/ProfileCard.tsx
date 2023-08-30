@@ -2,6 +2,7 @@ import * as React from "react";
 import Stack from "@mui/material/Stack";
 import Typography from "@mui/material/Typography";
 // import imageUrl from "../../assets/profilepic.jpg"
+// import Resume from "../../assets/jakobnordhagen-resume-1.pdf"
 
 const ProfileCard = () => {
   return (

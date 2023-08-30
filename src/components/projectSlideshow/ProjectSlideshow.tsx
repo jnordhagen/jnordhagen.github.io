@@ -6,6 +6,7 @@ import Carousel from 'react-material-ui-carousel'
 
 import ProjectCard from "../projectCard/ProjectCard";
 import theme from "../../theme"
+import HTRPaper from "../../assets/CS229_paper.pdf"
 
 interface Project {
   title: string;
@@ -23,8 +24,8 @@ const ProjectSlideshow = () => {
     },
     { 
       title: "Accurate Handwriting Transcription using Deep Learning", 
-      description: "A project demonstrating handwritten text recongition using deep learning models, with a CRNN (convolutional recurrent neural network) architecture.", 
-      link: "Link2" }, 
+      description: "A project demonstrating handwritten text recognition using deep learning models, with a CRNN (convolutional recurrent neural network) architecture.", 
+      link: HTRPaper }, 
     { 
       title: "Photo Wars", 
       // eslint-disable-next-line
@@ -54,7 +55,7 @@ const ProjectSlideshow = () => {
         swipe={false}
         navButtonsAlwaysVisible={true}
         animation={"slide"}
-        duration={700}
+        duration={500}
         fullHeightHover={false}
         navButtonsProps={{ 
           style: {

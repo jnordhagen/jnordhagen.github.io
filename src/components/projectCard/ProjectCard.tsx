@@ -1,8 +1,5 @@
 import * as React from "react";
-import Box from "@mui/material/Box";
-import Card from "@mui/material/Card";
-import Link from "@mui/material/Link";
-import Typography from "@mui/material/Typography";
+import { Box, Card, Link, Typography } from "@mui/material";
 
 const ProjectCard = ({ projectTitle, projectDesc, projectUrl }) => {
   return (
