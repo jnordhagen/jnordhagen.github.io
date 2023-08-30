@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.2508fb58.css",
-    "main.js": "/static/js/main.ba2367de.js",
+    "main.js": "/static/js/main.c8ccf74f.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "static/media/CS229_paper.pdf": "/static/media/CS229_paper.ae8142048cd5bc2cc44e.pdf",
     "static/media/mongodb.svg": "/static/media/mongodb.ef003e2ffd114fa3fc8ee67ef0207e60.svg",
     "static/media/react.svg": "/static/media/react.7aef399d92e9cada2369a62a602a38ef.svg",
     "static/media/typescript.svg": "/static/media/typescript.14326f7515b188357053c59ffc8f96ea.svg",
@@ -14,11 +15,11 @@
     "static/media/pytorch.svg": "/static/media/pytorch.c862f4034bc05fdaa4773957c00530b3.svg",
     "index.html": "/index.html",
     "main.2508fb58.css.map": "/static/css/main.2508fb58.css.map",
-    "main.ba2367de.js.map": "/static/js/main.ba2367de.js.map",
+    "main.c8ccf74f.js.map": "/static/js/main.c8ccf74f.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2508fb58.css",
-    "static/js/main.ba2367de.js"
+    "static/js/main.c8ccf74f.js"
   ]
 }
