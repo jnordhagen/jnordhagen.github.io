@@ -1,5 +1,5 @@
 import React from "react";
-import { IconButton, Box, Stack } from "@mui/material";
+import { Box, Stack } from "@mui/material";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 import ArrowBackIosIcon from "@mui/icons-material/ArrowBackIos"
 import Carousel from 'react-material-ui-carousel'
