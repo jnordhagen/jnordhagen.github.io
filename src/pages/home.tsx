@@ -4,7 +4,10 @@ import { Stack, Typography } from "@mui/material";
 import ProfileCard from "../components/profileCard/ProfileCard";
 import ProjectSlideshow from "../components/projectSlideshow/ProjectSlideshow";
 import SkillsCard from "../components/skillsCard/SkillsCard";
+import ContactCard from "../components/contactCard/ContactCard";
 // import TopBar from "../components/topBar/TopBar";
+
+
 import theme from "../theme";
 
 const Home = () => {
@@ -35,6 +38,7 @@ const Home = () => {
       <Typography variant="h4" fontWeight={600}>
         Contact
       </Typography>
+      <ContactCard />
 
     </Stack>
   );

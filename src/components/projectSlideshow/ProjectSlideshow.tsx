@@ -42,7 +42,7 @@ const ProjectSlideshow = () => {
     { 
       title: "Building the Internet", 
       description: "A custom implementation of large portions of the TCP/IP internet software, including the TCP sender and receiver, the IP router, and the network interface.", 
-      link: "internet" 
+      link: "https://github.com/CS144/minnow" 
     }
   ];
 
