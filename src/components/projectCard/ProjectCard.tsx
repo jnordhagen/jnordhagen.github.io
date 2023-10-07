@@ -31,7 +31,7 @@ const ProjectCard = ({ projectTitle, projectDesc, projectUrl }) => {
         >
           {projectDesc}
         </Typography>
-        <Link href={projectUrl}>see project here</Link>
+        <Link href={projectUrl}>see more here</Link>
       </Box>
     </Card>
   );

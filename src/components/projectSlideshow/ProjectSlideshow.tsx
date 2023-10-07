@@ -37,12 +37,18 @@ const ProjectSlideshow = () => {
                     versions of the original. Submissions are immediately viewable by all users to be \
                     voted or commented on, and creators can gain points based on how well their submissions \
                     fare, creating a fun community based on hilarious visual gags.", 
-      link: "https://github.com/StanfordCS194/spr23-Team15" 
+      link: "https://github.com/jnordhagen/photowars" 
     },
     { 
       title: "Building the Internet", 
       description: "A custom implementation of large portions of the TCP/IP internet software, including the TCP sender and receiver, the IP router, and the network interface.", 
       link: "https://github.com/CS144/minnow" 
+    },
+    { 
+      title: "Pintos Operating System", 
+      description: "A course project that involved developing and augmenting the Pintos OS. \
+                    We implemented multithreading capability, support for user processes, virtual memory, and a robust file system, all from scratch.", 
+      link: "https://web.stanford.edu/class/cs140/projects/pintos/pintos_1.html" 
     }
   ];
 
