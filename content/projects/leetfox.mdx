@@ -1,0 +1,34 @@
+---
+title: LeetFox
+description: A Chrome extension that coaches you through DSA problems in real time. Detects which LeetCode problem you're on, tracks your thinking, and gives Socratic hints — never just the answer.
+tags:
+  - Chrome Extension
+  - Manifest V3
+  - Anthropic API
+  - Notion
+date: "2024-01"
+featured: true
+github: https://github.com/jnordhagen/leetfox
+---
+
+## Overview
+
+LeetFox sits quietly in your browser while you grind LeetCode. It knows what problem you're on, watches your approach unfold, and steps in with a Socratic nudge when you've been stuck for too long — never giving away the answer.
+
+## Features
+
+- **Problem detection**: Automatically identifies the current problem via the DOM
+- **Hint progression**: Three levels of hints, each revealing a bit more, triggered by time stuck or manual request
+- **Session logging**: Pushes a structured summary to Notion after each solved problem (time taken, hints used, approach)
+- **Streak tracking**: Lightweight local streak counter with weekly goal setting
+
+## Stack
+
+- **Extension**: Manifest V3 service worker + content scripts
+- **AI**: Claude Haiku for fast, cheap hint generation
+- **Storage**: Notion API for session logs, chrome.storage for local state
+- **UI**: Vanilla TS + minimal CSS (no framework — keeps the bundle tiny)
+
+## Design decisions
+
+Keeping the extension lightweight was a hard constraint. The content script is under 5 KB; all heavy lifting happens in the service worker or on the Claude API side.

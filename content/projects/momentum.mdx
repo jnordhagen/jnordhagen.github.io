@@ -1,0 +1,35 @@
+---
+title: Momentum
+description: An AI-powered next-action engine that helps you break through decision paralysis and stay in flow. Surfaces your most important task based on context, energy, and deadline signals.
+tags:
+  - Next.js
+  - TypeScript
+  - Anthropic API
+date: "2024-03"
+featured: true
+github: https://github.com/jnordhagen/momentum
+---
+
+## Overview
+
+Momentum is a productivity tool built around a simple idea: instead of showing you a long list of things to do, it surfaces exactly one next action — the right one for your current context and energy level.
+
+## How it works
+
+The app collects loose tasks from multiple sources (clipboard, email snippets, manual input) and passes them through a Claude-powered prioritization loop. On each request, it considers:
+
+- Deadlines and urgency signals
+- Your self-reported energy level
+- Time available before your next calendar block
+- Historical completion patterns
+
+## Stack
+
+- **Frontend**: Next.js 15 App Router, Tailwind CSS
+- **AI**: Anthropic Claude API with structured output
+- **Auth**: Clerk
+- **Storage**: Vercel KV
+
+## Status
+
+In active development. Core prioritization loop is working; currently building the intake pipeline.

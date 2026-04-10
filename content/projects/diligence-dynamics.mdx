@@ -1,0 +1,28 @@
+---
+title: DiligenceDynamics
+description: AI web app for due-diligence financial document analysis. Integrates a Langchain RAG pipeline and Pinecone vector database for robust document understanding.
+tags:
+  - Python
+  - LangChain
+  - Pinecone
+  - TypeScript
+  - Next.js
+  - Firebase
+date: "2024-06"
+featured: false
+---
+
+## Overview
+
+DiligenceDynamics is an AI-powered tool for financial due diligence. Upload documents and ask questions — the app retrieves the most relevant passages and synthesizes answers grounded in the source material.
+
+## How it works
+
+- Documents are chunked and embedded into a Pinecone vector database on upload
+- Queries trigger a LangChain RAG pipeline that retrieves top-k passages and passes them to an LLM for grounded synthesis
+- Firebase handles auth and document storage
+
+## Highlights
+
+- Designed and developed across five Agile sprints
+- Completed ahead of schedule; presented at Stanford's software engineering fair

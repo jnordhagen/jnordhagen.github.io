@@ -1,0 +1,21 @@
+---
+title: Pintos Operating System
+description: A full operating-system kernel built in C for Stanford's OS course (CS 140). Implements a priority-based thread scheduler, virtual memory, 14 system calls, and an indexed-inode file system.
+tags:
+  - C
+  - Systems
+date: "2022-12"
+featured: false
+---
+
+## Overview
+
+Pintos is Stanford's teaching OS. Over the course of CS 140, the kernel was extended from a bare stub to a functional OS capable of running user programs with full memory isolation.
+
+## What was built
+
+- **Thread scheduler**: Priority-based scheduler with multi-level feedback queue — 100x performance improvement measured by timing code
+- **User programs**: Backbone for loading and running ELF executables
+- **System calls**: 14 system calls including `read`, `write`, `exec`, `wait`, `exit`, and file operations
+- **Virtual memory**: Demand paging with a supplemental page table, swap, and memory-mapped files
+- **File system**: Indexed-inode scheme supporting extensible files and subdirectories
