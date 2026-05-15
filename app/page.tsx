@@ -16,7 +16,7 @@ export default function HomePage() {
           Jakob Nordhagen
         </h1>
         <p className="text-lg text-neutral-600 max-w-xl leading-relaxed">
-          I build thoughtful software — from developer tools to AI-powered products.
+          I build thoughtful software — from developer tools to LLM-powered products.
           Currently focused on fast, well-crafted web experiences.
         </p>
         <div className="mt-8 flex gap-4">

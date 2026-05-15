@@ -1,0 +1,25 @@
+---
+title: Magnus
+description: An LLM-powered mock interview simulator. Pick an interview type, a scenario, and a duration; Claude plays the interviewer, asks phase-aware questions, and scores your performance at the end.
+tags:
+  - Next.js
+  - TypeScript
+  - Anthropic API
+  - SSE
+date: "2026-04"
+featured: true
+github: https://github.com/jnordhagen/magnus
+---
+
+## Overview
+
+Magnus is an LLM-powered mock interview simulator. Pick an interview type, a scenario, and a duration; Claude plays the interviewer, asks phase-aware questions, and scores your performance at the end.
+
+## Features
+
+- **Five interview tracks** — System Design, AI/ML System Design, Coding/Algorithms, Behavioral, and ML Fundamentals, each with curated scenarios.
+- **Phase-aware interviewer** — the system prompt shifts between opening → core → deepdive → wrapup based on elapsed time, so the pacing mirrors a real interview.
+- **Streaming chat** — token-by-token responses over SSE.
+- **Chat about the session** — after the interview ends, ask follow-up questions about your own performance.
+- **Feedback report** — per-dimension scores, a written summary, and the full transcript.
+- **History** — every past session is stored and revisitable.
